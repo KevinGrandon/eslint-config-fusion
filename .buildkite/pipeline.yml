@@ -21,7 +21,7 @@ steps:
       docker-compose#v1.5.2:
         run: eslint-config-fusion
   - name: "parallel 3"
-    command: "echo ''"
+    command: "false"
     plugins:
       docker-compose#v1.5.2:
         run: eslint-config-fusion

@@ -1,4 +1,8 @@
 module.exports = {
+  env: {
+    browser: true,
+    node: true,
+  },
   extends: [
     'plugin:flowtype/recommended',
     'plugin:react/recommended',

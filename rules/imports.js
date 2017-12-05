@@ -9,7 +9,7 @@ module.exports = {
     },
     'import/extensions': ['.js'],
     'import/core-modules': [],
-    'import/ignore': ['node_modules', '\\.(scss|css|less|hbs|svg|json)$'],
+    'import/ignore': [],
   },
 
   rules: {

@@ -108,8 +108,7 @@ module.exports = {
       'error',
       'always',
       {
-        js: 'never',
-        jsx: 'never',
+        js: 'always',
       },
     ],
 

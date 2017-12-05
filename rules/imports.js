@@ -92,7 +92,7 @@ module.exports = {
 
     // Ensure consistent use of file extension within the import path
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-    // TODO(#11): This should be always, but ignorePackages is currently throwing schema errors.
+    // TODO(#11): This should be always, but ignorePackages is not supported until the next version of eslint-plugin-import
     // https://github.com/benmosher/eslint-plugin-import/issues/979
     'import/extensions': ['off', {ignorePackages: true}],
 

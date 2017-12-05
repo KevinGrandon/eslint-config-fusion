@@ -6,7 +6,8 @@
   "repository": "fusionjs/eslint-config-fusion",
   "main": "index.js",
   "dependencies": {
-    "eslint-config-uber-universal-stage-3": "^1.0.0-rc.7"
+    "eslint-config-uber-universal-stage-3": "^1.0.0-rc.7",
+    "eslint-plugin-import": "^2.8.0"
   },
   "peerDependencies": {
     "eslint-plugin-flowtype": "^2.36.0",

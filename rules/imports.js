@@ -31,8 +31,8 @@ module.exports = {
     'import/named': 'error',
 
     // ensure default import coupled with default export
-    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md#when-not-to-use-it
-    'import/default': 'off',
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md
+    'import/default': 'error',
 
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
     'import/namespace': 'off',

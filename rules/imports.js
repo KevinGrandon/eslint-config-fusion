@@ -12,7 +12,7 @@ module.exports = {
     'import/core-modules': [],
     'import/ignore': [],
   },
-
+FAIL THE LINT
   rules: {
     // Static analysis:
 

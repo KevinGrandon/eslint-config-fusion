@@ -2,6 +2,8 @@
 module.exports = {
   plugins: ['eslint-plugin-import'],
 
+HERE IS A FAILURE
+
   settings: {
     'import/resolver': {
       node: {
